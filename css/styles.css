@@ -672,7 +672,7 @@ background: #f4f4fd;
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #e7e9fc;;
+        background-color: #e7e9fc;
         border: 1px solid rgba(0, 0, 0, 0.1);
         padding: 0;
         cursor: pointer;
@@ -795,11 +795,7 @@ background: #f4f4fd;
         margin-bottom: 24px;
 }
 
-/* .user-privacy-icon{
-        display: inline-flex;
-} */
-
-.check-text span{
+.user-privacy-icon{
         width: 16px;
         height: 16px;
         border-radius: 2px;
@@ -812,7 +808,7 @@ background: #f4f4fd;
         margin-right: 8px;
 }
 
-.modal-check:checked + .check-text span{
+.modal-check:checked + .check-text > .user-privacy-icon{
         background-color: #404bbf;
         border: none;
         fill: #F4F4FD;
@@ -821,7 +817,6 @@ background: #f4f4fd;
 
 .check-icon{
         fill: #f4f4fd;
-        display: inline-flex;
 }
 
 .privacy-policy{
