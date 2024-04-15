@@ -727,8 +727,12 @@ background: #f4f4fd;
 
 .modal-field{
         margin-bottom: 8px;
+        
 }
 
+.modal-field-comment{
+        margin-bottom: 16px;
+}
 
 .modal-label-footer{
         display: block;
@@ -791,12 +795,16 @@ background: #f4f4fd;
         margin-bottom: 24px;
 }
 
+.user-privacy-icon{
+        display: inline-flex;
+}
+
 .check-text span{
         width: 16px;
         height: 16px;
         border-radius: 2px;
         border: 1px solid rgba(46, 47, 66, 0.4);
-        display: inline-flex;
+        display: flex;
         align-items: center;
         justify-content: center;
         fill: transparent;
